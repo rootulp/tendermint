@@ -2,6 +2,7 @@ package v1
 
 import (
 	"fmt"
+	stdlog "log"
 	"reflect"
 	"sort"
 	"sync"
@@ -450,6 +451,7 @@ func (txmp *TxMempool) Update(
 func (txmp *TxMempool) initialTxCallback(wtx *WrappedTx, res *abci.Response) {
 	checkTxRes, ok := res.Value.(*abci.Response_CheckTx)
 	if !ok {
+		stdlog.Printf("MJF :: wrong CheckTx result type %[1]T %+[1]v", res.Value)
 		return
 	}
 
@@ -618,6 +620,7 @@ func (txmp *TxMempool) insertTx(wtx *WrappedTx) {
 func (txmp *TxMempool) recheckTxCallback(req *abci.Request, res *abci.Response) {
 	checkTxRes, ok := res.Value.(*abci.Response_CheckTx)
 	if !ok {
+		stdlog.Printf("MJF :: wrong CheckTx result type %[1]T %+[1]v", res.Value)
 		txmp.logger.Error("mempool: received incorrect result type in CheckTx callback",
 			"expected", reflect.TypeOf(&abci.Response_CheckTx{}).Name(),
 			"got", reflect.TypeOf(res.Value).Name(),

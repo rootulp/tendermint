@@ -712,9 +712,7 @@ func (txmp *TxMempool) recheckTransactions() {
 		})
 	}
 
-	if err := txmp.proxyAppConn.FlushAsync(); err != nil {
-		txmp.logger.Error("failed to flush transactions during recheck", "err", err)
-	}
+	txmp.proxyAppConn.FlushAsync()
 }
 
 // canAddTx returns an error if we cannot insert the provided *WrappedTx into

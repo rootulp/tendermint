@@ -3,7 +3,7 @@ module github.com/tendermint/tendermint
 go 1.16
 
 require (
-	github.com/BurntSushi/toml v1.1.0
+	github.com/BurntSushi/toml v1.2.1
 	github.com/Workiva/go-datastructures v1.0.53
 	github.com/adlio/schema v1.3.3
 	github.com/btcsuite/btcd v0.22.1
@@ -19,8 +19,8 @@ require (
 	github.com/go-kit/kit v0.12.0
 	github.com/gogo/protobuf v1.3.2
 	github.com/golang/protobuf v1.5.2
-	github.com/golangci/golangci-lint v1.46.0
-	github.com/google/go-cmp v0.5.8
+	github.com/golangci/golangci-lint v1.50.1
+	github.com/google/go-cmp v0.5.9
 	github.com/google/orderedcode v0.0.1
 	github.com/google/uuid v1.3.0
 	github.com/gorilla/websocket v1.5.0
@@ -39,15 +39,15 @@ require (
 	github.com/rs/zerolog v1.27.0
 	github.com/sasha-s/go-deadlock v0.2.1-0.20190427202633-1595213edefa
 	github.com/snikch/goodman v0.0.0-20171125024755-10e37e294daa
-	github.com/spf13/cobra v1.5.0
+	github.com/spf13/cobra v1.6.0
 	github.com/spf13/viper v1.12.0
 	github.com/stretchr/testify v1.8.0
 	github.com/syndtr/goleveldb v1.0.1-0.20200815110645-5c35d600f0ca
 	github.com/tendermint/tm-db v0.6.6
 	github.com/vektra/mockery/v2 v2.14.0
-	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e
-	golang.org/x/net v0.0.0-20220617184016-355a448f1bc9
-	golang.org/x/sync v0.0.0-20220513210516-0976fa681c29
+	golang.org/x/crypto v0.1.0
+	golang.org/x/net v0.1.0
+	golang.org/x/sync v0.0.0-20220819030929-7fc1605a5dde
 	google.golang.org/grpc v1.47.0
 	gopkg.in/check.v1 v1.0.0-20200902074654-038fdea0a05b // indirect
 	gotest.tools v2.2.0+incompatible // indirect

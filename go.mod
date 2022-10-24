@@ -21,7 +21,6 @@ require (
 	github.com/golang/protobuf v1.5.2
 	github.com/google/orderedcode v0.0.1
 	github.com/gorilla/websocket v1.5.0
-	github.com/gotestyourself/gotestyourself v2.2.0+incompatible // indirect
 	github.com/gtank/merlin v0.1.1
 	github.com/lib/pq v1.10.6
 	github.com/libp2p/go-buffer-pool v0.1.0
@@ -33,18 +32,17 @@ require (
 	github.com/rs/cors v1.8.2
 	github.com/sasha-s/go-deadlock v0.2.1-0.20190427202633-1595213edefa
 	github.com/snikch/goodman v0.0.0-20171125024755-10e37e294daa
-	github.com/spf13/cobra v1.5.0
+	github.com/spf13/cobra v1.6.0
 	github.com/spf13/viper v1.12.0
 	github.com/stretchr/testify v1.8.0
 	github.com/tendermint/tm-db v0.6.6
 	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e
-	golang.org/x/net v0.0.0-20220617184016-355a448f1bc9
-	google.golang.org/grpc v1.47.0
-	gotest.tools v2.2.0+incompatible // indirect
+	golang.org/x/net v0.0.0-20221017152216-f25eb7ecb193
+	google.golang.org/grpc v1.50.1
 )
 
 require (
-	github.com/bufbuild/buf v1.4.0
+	github.com/bufbuild/buf v1.9.0
 	github.com/golangci/golangci-lint v1.46.2
 	github.com/prometheus/common v0.34.0 // indirect
 	github.com/syndtr/goleveldb v1.0.1-0.20200815110645-5c35d600f0ca

@@ -35,11 +35,11 @@ require (
 	github.com/snikch/goodman v0.0.0-20171125024755-10e37e294daa
 	github.com/spf13/cobra v1.5.0
 	github.com/spf13/viper v1.12.0
-	github.com/stretchr/testify v1.8.0
+	github.com/stretchr/testify v1.8.1
 	github.com/tendermint/tm-db v0.6.6
 	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e
-	golang.org/x/net v0.0.0-20220617184016-355a448f1bc9
-	google.golang.org/grpc v1.47.0
+	golang.org/x/net v0.5.0
+	google.golang.org/grpc v1.53.0
 	gotest.tools v2.2.0+incompatible // indirect
 )
 
